@@ -6,9 +6,11 @@ Implementation:
 
 Apache hadoop is used here for the implementation. Each mapper takes an input line. If the string is found, a (key,value) pair is produced, where the value is the line, and the key is the byte offset of the line. The reducers just output this pair to the designated output file. 
 
+This program is made as a test for passing a single argument to all mappers.
+
 Compile: 
 
-To compile the code, run the command "compile_script.sh". Java and hadoop must be installed.
+To compile the code, run the command "compile_script.sh". Java must be installed.
 
 Run:
 

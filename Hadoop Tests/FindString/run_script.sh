@@ -5,5 +5,5 @@ OUTPUT_DIR="eap_out"
 
 rm -r $OUTPUT_DIR
 hadoop jar $NAME".jar" $NAME $INPUT_DIR $OUTPUT_DIR ''"$1"''
-cp $OUTPUT_DIR/part-00000 output.txt
+cp eap_out/part-00000 output.txt
 
